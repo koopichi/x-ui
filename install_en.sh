@@ -152,7 +152,7 @@ install_x-ui() {
     cd x-ui
     chmod +x x-ui bin/xray-linux-${arch}
     cp -f x-ui.service /etc/systemd/system/
-    wget --no-check-certificate -O /usr/bin/x-ui https://github.com/koopichi/x-ui/blob/master/x-ui_en.sh
+    wget --no-check-certificate -O /usr/bin/x-ui https://raw.githubusercontent.com/koopichi/x-ui/master/x-ui_en.sh
     chmod +x /usr/local/x-ui/x-ui_en.sh
     chmod +x /usr/bin/x-ui
     config_after_install
