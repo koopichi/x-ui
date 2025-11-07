@@ -1,5 +1,5 @@
 # x-ui
 
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/koopichi/x-ui/master/install_en.sh)
+bash <(curl -Ls [https://raw.githubusercontent.com/koopichi/x-ui/master/install_en.sh)
 ```
